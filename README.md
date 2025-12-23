@@ -1,4 +1,4 @@
-# Chocolatey Packages [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/qiazo/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/kjxbyz/chocolatey-packages)
+# Chocolatey Packages [![Build status](https://ci.appveyor.com/api/projects/status/hyg5baoupfxqe9kw?svg=true)](https://ci.appveyor.com/project/kjxbyz/chocolatey-packages)
 
 [Update status](https://gist.github.com/kjxbyz/6e62e5cab8fb28487b265620bd85755d)
 [Packages are reviewed in queue](https://ch0.co/moderation)
