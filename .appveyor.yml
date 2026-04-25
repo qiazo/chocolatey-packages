@@ -18,9 +18,9 @@ environment:
 
   # GitHub releases
   FR_RELEASE_TOKEN:
-    secure: OrV8sBUF3drDVJsllYml4TWMpmH3Ch75Yld2jpZCVAnsybUt+bLo8ddkQZp8VGszd+BAOmbKNW90F7oSZjo8M6LTsv8qg7PV/CZ114/Nq7JmUODKuUD8zPLF+Xbvu/PA # https://ci.appveyor.com/tools/encrypt
+    secure: OrV8sBUF3drDVJsllYml4fUyi2tQrLSV0dpm/SGTLegz2Q+bnPSReiYwlZlV6tv0mIuZbuZ+yU+LafZBETboWDcv/o1sHcNzMHyPiTM1kXScW23plmZ0WzI3e3jsjt/K # https://ci.appveyor.com/tools/encrypt
   PG_RELEASE_TOKEN:
-    secure: OrV8sBUF3drDVJsllYml4fAn4eqTtZ4vruhirNpMLPu9XwMpaXsXxSJjuBkAtgqGML6yRQS2buhTdWkQUJmmcA8neDQjFfLBhobSX1icikbr8KSQAww5JiXSeqZaA9D+ # https://ci.appveyor.com/tools/encrypt
+    secure: OrV8sBUF3drDVJsllYml4blyJxxRSIU0eYpD61nzW9dj2q4gzaL+TEWPFfU8q93kHiuJpZI0DN/addr+Vbard4FNLRwoFZ74lTbO5EspX+vIsTjSrfPZv09NsyTUNG7X # https://ci.appveyor.com/tools/encrypt
 
   # Github token to commit pushed packages to repository
   github_user_repo: qiazo/chocolatey-packages
