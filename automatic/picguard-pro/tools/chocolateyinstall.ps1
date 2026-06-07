@@ -1,6 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop'
 $url64      = 'https://github.com/picguard/picguard/releases/download/v5.5.3.476/picguard-pro-5.5.3.476-windows-setup-x64.exe'
+$checksum64 = '1496e49b090f5c10e86d55e36cd04eb194b6e7d6f7b3439850021b3980d1cc88'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
@@ -16,7 +17,7 @@ $packageArgs = @{
 
   softwareName  = 'picguard-pro*'
 
-  checksum64    = '1496e49b090f5c10e86d55e36cd04eb194b6e7d6f7b3439850021b3980d1cc88'
+  checksum64    = $checksum64
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
