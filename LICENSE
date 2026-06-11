@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Hey, sorry, was at a conference last week and hadn't got back to this yet.
+
+Examples:
+https://community.chocolatey.org/packages/rclone-ui
+https://community.chocolatey.org/packages/onedrive
+
+I was thinking about an extension that would add ARM parameters to the installation functions, but I can't recommend [it](https://gist.github.com/JPRuskin/3d17e00908471d5ebf913983936f56d4) currently.
