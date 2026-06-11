@@ -9,18 +9,18 @@ choco install au
 # Build
 
 ```powershell
-choco pack .\manual\artify\artify.nuspec
+choco pack .\automatic\fafarunner\fafarunner.nuspec
 ```
 
 # Local Install
 
 ```powershell
 # Run as admini
-choco install artify --pre --version="0.0.1-alpha3" --source="C:\Users\ying\workspace\qiazo\chocolatey-packages"
+choco install fafarunner --pre --version="0.0.1-alpha3" --source="C:\Users\ying\workspace\qiazo\chocolatey-packages"
 ```
 
 # Push
 
 ```powershell
-choco push .\artify.0.0.1-alpha3.nupkg --api-key=<api key> --source https://push.chocolatey.org/ -d
+choco push .\fafarunner.0.0.1-alpha3.nupkg --api-key=<api key> --source https://push.chocolatey.org/ -d
 ```
