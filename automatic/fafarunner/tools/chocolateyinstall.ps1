@@ -6,8 +6,6 @@ $urlArm64      = 'https://github.com/fafarunner/fafarunner/releases/download/v3.
 $checksum64    = '6dbbb8bc94354bd290b8378634c0b190549b3dd9001eecd53cbb5fd288f14b2d'
 $checksumArm64 = '572ea29b9ea7cafcb41f3bf586b3dbf7c12167cf41bf305840f1d3b7b257f3b9'
 
-$arch = Get-OSArchitectureWidth -Compare 64
-
 # OS/CPU
 $osIs64  = [Environment]::Is64BitOperatingSystem
 $onArm64 = ($env:PROCESSOR_ARCHITECTURE -eq 'ARM64' -or $env:PROCESSOR_ARCHITEW6432 -eq 'ARM64')
