@@ -1,10 +1,10 @@
 ﻿
 $ErrorActionPreference = 'Stop'
 
-$url64         = 'https://github.com/fafarunner/fafarunner/releases/download/v3.1.0.393/fafarunner-3.1.0.393-windows-setup-x64.exe'
-$urlArm64      = 'https://github.com/fafarunner/fafarunner/releases/download/v3.1.0.393/fafarunner-3.1.0.393-windows-setup-arm64.exe'
-$checksum64    = '6dbbb8bc94354bd290b8378634c0b190549b3dd9001eecd53cbb5fd288f14b2d'
-$checksumArm64 = '572ea29b9ea7cafcb41f3bf586b3dbf7c12167cf41bf305840f1d3b7b257f3b9'
+$url64         = 'https://github.com/fafarunner/fafarunner/releases/download/v3.1.1.394/fafarunner-3.1.1.394-windows-setup-x64.exe'
+$urlArm64      = 'https://github.com/fafarunner/fafarunner/releases/download/v3.1.1.394/fafarunner-3.1.1.394-windows-setup-arm64.exe'
+$checksum64    = 'ae583fc496b107331cb75d78f41e4947f599fd63efd53f961d59d2ebd75971f9'
+$checksumArm64 = 'ca897099460edede2c453308516b55692fa50c3fb3b3c48f25e7c9b04e8ca5db'
 
 # OS/CPU
 $osIs64  = [Environment]::Is64BitOperatingSystem
