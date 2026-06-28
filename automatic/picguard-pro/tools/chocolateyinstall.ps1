@@ -1,9 +1,9 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64         = 'https://github.com/picguard/picguard/releases/download/v5.6.0.478/picguard-pro-5.6.0.478-windows-setup-x64.exe'
-$urlArm64      = 'https://github.com/picguard/picguard/releases/download/v5.6.0.478/picguard-pro-5.6.0.478-windows-setup-arm64.exe'
-$checksum64    = 'd8c01b0ef5755b925ad9196f85e1c12187364d05a8bf7f53ba610232e7705821'
-$checksumArm64 = '197bb93ab99dd0c6e0700c565f49033d9c2bc643e8bc7c0a984281a1b612f404'
+$url64         = 'https://github.com/picguard/picguard/releases/download/v5.7.0.479/picguard-pro-5.7.0.479-windows-setup-x64.exe'
+$urlArm64      = 'https://github.com/picguard/picguard/releases/download/v5.7.0.479/picguard-pro-5.7.0.479-windows-setup-arm64.exe'
+$checksum64    = '705f1318c73f84b7d09108ee50de34108c459878929edfe39e75ebe960fd77ce'
+$checksumArm64 = '0e932e12cea0000bcd4e62b41bf271dcec4ae5f317149b30710135fd77ee3018'
 
 # OS/CPU
 $osIs64  = [Environment]::Is64BitOperatingSystem
